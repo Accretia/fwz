@@ -1,7 +1,5 @@
 # fwz
-Clone the repository
 
-    git clone https://github.com/aren-nalbandyan/fazwaz.git
     
 Switch to the repo folder
 
