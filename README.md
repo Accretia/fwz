@@ -1,10 +1,10 @@
 Clone the repository
 
-    git clone https://github.com/aren-nalbandyan/fazwaz.git
+    git clone https://github.com/Accretia/fwz.git
     
 Switch to the repo folder
 
-    cd fazwaz/
+    cd fwz/
     
 Install all the dependencies using composer
 
