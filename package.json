@@ -22,6 +22,8 @@
     },
     "dependencies": {
         "bootstrap": "^4.3.1",
+        "fancy-grid-vue": "^1.0.5",
+        "fancygrid": "^1.7.84",
         "laravel-vue-pagination": "^2.3.0",
         "vue": "^2.6.10",
         "vue-resource": "^1.5.1",

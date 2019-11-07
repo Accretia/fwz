@@ -16,3 +16,5 @@
 //});
 Route::get("/", ["uses" => "PropertyController@index", "as" => "buildings"]);
 Route::get("get_buildings", ["uses" =>"PropertyController@getProperties", "as" => "get-buildings"]);
+Route::get("get_properties", ["uses" =>"PropertyController@getPropertiesNew", "as" => "get-properties"]);
+Route::get("/test", "PropertyController@testGrid");

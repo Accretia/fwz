@@ -94,4 +94,18 @@ class PropertyController extends Controller
         return json_encode([ 'data' => $data, 'total' => $count ]);
 
     }
+
+    public function testGrid(){
+        return view("test");
+    }
+
+    public function getPropertiesNew( Request $request )
+    {
+        $properties = Property::paginate(20);
+        $result = array();
+        $result["data"] = $properties;
+
+        return json_encode([ 'data' => $result]);
+
+    }
 }

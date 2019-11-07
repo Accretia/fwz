@@ -40,3 +40,8 @@ Install node modules
 
     npm install
     
+Run Test
+
+    Go to your repository directory and run below command
+    vendor/bin/phpunit tests/Unit/PropertiesTest
+    

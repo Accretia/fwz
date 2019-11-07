@@ -11,8 +11,8 @@
 <body>
 <h1>{{env('APP_NAME')}} </h1>
 <div id="app">
-    <dashboard-component  status_arr="{{$statuses}}" country_arr="{{ $countries }}" property_type="{{ $types }}" properties="{{$properties}}"></dashboard-component>
+    <test-component></test-component>
 </div>
-<script src="{{asset('js/app.js')}}" ></script>
+<script src="{{asset('js/grid.js')}}" ></script>
 </body>
 </html>
